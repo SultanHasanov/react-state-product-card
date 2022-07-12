@@ -1,0 +1,88 @@
+.App{
+    display: flex;
+    justify-content: center;
+}
+
+img {
+  width: 100px;
+  border-radius: 2px;
+}
+
+.cart {
+  width: 100px;
+  height: auto;
+  /* border: 1px solid black; */
+  box-shadow: 3px 1px 5px 0px gray;
+  border-radius: 2px;
+}
+
+button {
+  width: 40px;
+  font-size: 5px;
+}
+
+p {
+  font-size: 5px;
+}
+.block {
+  display: flex;
+}
+.price {
+  margin: 5px;
+  margin-top: -15px;
+}
+.btn1 {
+  margin-top: -5px;
+  width: 50%;
+  height: 10px;
+  cursor: pointer;
+}
+
+.btn2 {
+  background-color: green;
+  font-size: 3px;
+  width: 50px;
+  height: 10px;
+  border: 0;
+  border-radius: 1px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn3 {
+  background-color: white;
+  font-size: 3px;
+  width: 50px;
+  height: 10px;
+  border: none;
+  border-radius: 1px;
+  color: red;
+  cursor: pointer;
+}
+
+.btn3:hover {
+  text-decoration: underline;
+}
+
+.wind {
+  top: 0;
+  /* margin-left: 20px; */
+  font-size: 5px;
+  width: auto;
+  box-shadow: 3px 1px 5px 0px gray;
+}
+.btn4 {
+  max-width: 2px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 112px;
+  right: 120px;
+  color: red;
+  font-weight: bold;
+}
+
+.butt{
+    display: flex;
+    flex-direction: column;
+}
